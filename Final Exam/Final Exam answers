@@ -1,0 +1,89 @@
+Q1 The kernel is defined as:
+Ans. The glue between the hardware and applications
+
+Q2 Which statements are true about the Linux Boot Loader:
+Ans. All of the above
+
+Q3 If the display manager is not started by default in the default runlevel, you can start the X-Window System by:
+Ans. Running the startx command from the command-line
+
+Q4 To change your desktop background:
+Ans. Right-click on the desktop, select Change Desktop Background and select a wallpaper
+
+Q5 For best coordination between multiple Linux systems, you should set the date and time:
+Ans. Using the Network Time Protocol (NTP) so that machines are automatically very close to the same time
+
+Q6 Display settings allow you to change things like:
+Ans. Screen resolution and multiple screens configuration
+
+Q7 One of the reasons you should learn text mode operations is:
+Ans. Your server may not have the overhead for a graphical user interface (GUI)
+
+Q8 To move around the file system tree from one directory to another you can use:
+Ans. cd
+
+Q9 To remove a directory named data and all of its files, including sub-directories, in that directory, use:
+Ans. rm –rf data
+
+Q10 The Linux manual pages can be read using:
+Ans. man
+
+Q11 Many programs have built-in help; to access this, use:
+Ans. The -h or --help option
+
+Q12 Which of the following compares two files line by line and reports differences?
+Ans. diff
+
+Q13 Which of the following is useful for creating a backup of a disk Master Boot Record (MBR)?
+Ans. dd
+
+Q14 In order to execute a Linux command as the root user, what should you prefix it with?
+Ans. sudo command (as in sudo ls /etc)
+
+Q15 The_________environment variable lists the directories in which the shell looks for executable programs and scripts.
+Ans. $PATH
+
+Q16 Which command is used to set the Linux file permissions to make the file named data, readable and writable by the owner and group owner of the file, but not accessible by any others?
+Ans. chmod 660 data
+
+Q17 An easy to use text-based editor that utilizes on-screen prompts is:
+Ans. nano
+
+Q18 The command-mode key stroke(s)______within vi will delete the characters from the cursor to the end of the word.
+Ans. dw
+
+Q19 Encrypted account passwords are found in the file,_________, and are typically encrypted using the__________algorithm.
+Ans. /etc/shadow; SHA-512
+
+Q20 The root account:
+Ans. All of the above
+
+Q21 IP addresses are divided into two parts:
+Ans. Network and host
+
+Q22 To confirm that a remote host is online and responding and to measure network latency between machines at the same time , one can use:
+Ans. ping
+
+Q23 How would you use sed to replace all the occurrences of the word "tiger" with "lion" in the file named data?
+Ans. sed -i 's/tiger/lion/g' data
+
+Q24 The command "wc –l data" will print out the number of :
+Ans. lines in the file data
+
+Q25 Which of following could you use to check the status of all your printers?
+Ans. lpstat –a
+
+Q26 Why should we use shell scripts?
+Ans. All of the above
+
+Q27 Your shell script uses an "if" statement to see if the word "yes" was entered. This "if" statement looks like:
+Ans. if [ $RESPONSE == "yes" ] ; then
+
+Q28 Your shell script needs to test to see if a directory, document, exists; a way to do this is:
+Ans. [ -d document ]
+
+Q29 Which of the following can be used to show which processes are using most of the CPU or memory resources on your system:
+Ans. top
+
+Q30 The ssh command provides a way to:
+Ans. Connect securely to remote systems
